@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-07-18T05:41:43.868461",
+  "files_processed": 2,
+  "total_rows_in": 16,
+  "total_rows_out": 14,
+  "total_duplicates_removed": 2,
+  "total_empty_removed": 0,
+  "total_issues_found": 23,
+  "files": [
+    {
+      "file": "customers_dirty.csv",
+      "total_rows": 7,
+      "cleaned_rows": 6,
+      "duplicates_removed": 1,
+      "empty_rows_removed": 0,
+      "issues_found": [
+        {
+          "row": 1,
+          "issue": "Date converted: 'May 14, 2021' → '2021-05-14'"
+        },
+        {
+          "row": 2,
+          "issue": "Date converted: '19/08/2023' → '2023-08-19'"
+        },
+        {
+          "row": 3,
+          "issue": "Invalid email: 'yuki@company'"
+        },
+        {
+          "row": 3,
+          "issue": "Missing salary filled with 54000.0"
+        },
+        {
+          "row": 3,
+          "issue": "Date converted: '25 Sep 2022' → '2022-09-25'"
+        },
+        {
+          "row": 5,
+          "issue": "Missing age filled with 27.0"
+        },
+        {
+          "row": 5,
+          "issue": "Date converted: '08/01/2020' → '2020-01-08'"
+        },
+        {
+          "row": 6,
+          "issue": "Missing age filled with 27.0"
+        },
+        {
+          "row": 6,
+          "issue": "Date converted: '08/01/2020' → '2020-01-08'"
+        },
+        {
+          "row": 7,
+          "issue": "Invalid email: 'mia@@company.com'"
+        }
+      ],
+      "output_file": "output_clean\\clean_customers_dirty.csv"
+    },
+    {
+      "file": "employees_dirty.csv",
+      "total_rows": 9,
+      "cleaned_rows": 8,
+      "duplicates_removed": 1,
+      "empty_rows_removed": 0,
+      "issues_found": [
+        {
+          "row": 2,
+          "issue": "Invalid email: 'carlos@email'"
+        },
+        {
+          "row": 2,
+          "issue": "Missing salary filled with 58000.0"
+        },
+        {
+          "row": 2,
+          "issue": "Date converted: '15/03/2023' → '2023-03-15'"
+        },
+        {
+          "row": 3,
+          "issue": "Missing age filled with 31.0"
+        },
+        {
+          "row": 3,
+          "issue": "Date converted: '03/25/2024' → '2024-03-25'"
+        },
+        {
+          "row": 5,
+          "issue": "Invalid email: 'sofia @email.com'"
+        },
+        {
+          "row": 5,
+          "issue": "Date converted: '18-06-2023' → '2023-06-18'"
+        },
+        {
+          "row": 6,
+          "issue": "Invalid email: 'carlos@email'"
+        },
+        {
+          "row": 6,
+          "issue": "Missing salary filled with 58000.0"
+        },
+        {
+          "row": 6,
+          "issue": "Date converted: '15/03/2023' → '2023-03-15'"
+        },
+        {
+          "row": 7,
+          "issue": "Missing age filled with 31.0"
+        },
+        {
+          "row": 7,
+          "issue": "Missing salary filled with 58000.0"
+        },
+        {
+          "row": 8,
+          "issue": "Date converted: 'November 30, 2021' → '2021-11-30'"
+        }
+      ],
+      "output_file": "output_clean\\clean_employees_dirty.csv"
+    }
+  ]
+}
