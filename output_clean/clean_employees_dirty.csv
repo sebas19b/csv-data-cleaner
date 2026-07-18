@@ -1,0 +1,9 @@
+id,name,email,age,country,salary,date
+1,Alice Johnson,alice@email.com,28,Usa,55000,2024-01-15
+2,Carlos Ruiz,carlos@email,35,Mexico,58000.0,2023-03-15
+3,Emma Wilson,emma@email.com,31.0,Uk,72000,2024-03-25
+4,David Kim,david@email.com,29,South Korea,61000,2024-04-05
+5,Sofia Martinez,sofia@email.com,31,Colombia,48000,2023-06-18
+6,,,31.0,,58000.0,
+7,James Brown,james@email.com,45,Usa,93000,2021-11-30
+8,Laura Perez,laura@email.com,22,Colombia,38000,2024-01-02
