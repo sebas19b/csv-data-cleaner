@@ -1,0 +1,24 @@
+2026-07-18 05:41:43,787 [INFO] CSV Data Cleaner started.
+2026-07-18 05:41:43,789 [INFO] No CSV files found. Creating sample dirty files...
+2026-07-18 05:41:43,791 [INFO] Sample dirty CSV files created in 'input_csv/' folder.
+2026-07-18 05:41:43,793 [INFO] Processing: customers_dirty.csv
+2026-07-18 05:41:43,828 [INFO]   Rows read: 7 | Columns: ['id', 'name', 'email', 'age', 'country', 'salary', 'date']
+2026-07-18 05:41:43,844 [INFO]   Duplicates removed: 1
+2026-07-18 05:41:43,845 [INFO]   Saved: output_clean\clean_customers_dirty.csv (6 rows)
+2026-07-18 05:41:43,846 [INFO] Processing: employees_dirty.csv
+2026-07-18 05:41:43,864 [INFO]   Rows read: 9 | Columns: ['id', 'name', 'email', 'age', 'country', 'salary', 'date']
+2026-07-18 05:41:43,866 [INFO]   Duplicates removed: 1
+2026-07-18 05:41:43,867 [INFO]   Saved: output_clean\clean_employees_dirty.csv (8 rows)
+2026-07-18 05:41:43,870 [INFO] 
+=======================================================
+2026-07-18 05:41:43,871 [INFO]   CLEANING SUMMARY
+2026-07-18 05:41:43,872 [INFO] =======================================================
+2026-07-18 05:41:43,873 [INFO]   Files processed    : 2
+2026-07-18 05:41:43,875 [INFO]   Rows in            : 16
+2026-07-18 05:41:43,876 [INFO]   Rows out (clean)   : 14
+2026-07-18 05:41:43,876 [INFO]   Duplicates removed : 2
+2026-07-18 05:41:43,876 [INFO]   Empty rows removed : 0
+2026-07-18 05:41:43,877 [INFO]   Issues detected    : 23
+2026-07-18 05:41:43,877 [INFO]   Report saved to    : output_clean\report_20260718_054143.json
+2026-07-18 05:41:43,878 [INFO] =======================================================
+2026-07-18 05:41:43,880 [INFO] Done.
